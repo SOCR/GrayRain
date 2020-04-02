@@ -1,0 +1,120 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body {
+  background: white;
+	background-size: 400% 400%;
+}
+html{ height: 100%; }
+h1 {
+  font-size: 50px; 
+  font-family: 'Work Sans', sans-serif; 
+  font-variant: condensed; 
+  font-weight: bold; 
+  line-height: 37px; 
+}
+
+ul{
+	list-style-type: none;
+}
+h2, h3, h4, h5, h6, a {
+	font-family: 'Work Sans', sans-serif;
+}
+th, tr{
+	font-family: 'Ubuntu Mono', monospace;
+}
+.bg-dark{
+	color: #808080;
+	background-color: #808080;
+}
+
+#s1 {
+	background: linear-gradient(-45deg,#808080, rgb(98, 121, 128), #156380, #616981);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+#s2{
+	background: linear-gradient(45deg,#808080, rgb(98, 121, 128), #156380, #616981);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+#s3{
+	background: linear-gradient(-45deg,#808080, rgb(98, 121, 128), #156380, #616981);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	color:white;
+}
+#s4{
+	background: linear-gradient(45deg,#808080, rgb(98, 121, 128), #156380, #616981);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	color:white;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+
+
+header {
+	position: relative;
+	height: 75vh;
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
+	background-image: linear-gradient(rgb(103, 103, 105), rgba(2, 27, 54, 0.514));
+  }
+  
+  header video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+  }
+  
+
+  header .container {
+	position: relative;
+	z-index: 2;
+  }
+
+  header .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+	header {
+	  background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+	}
+	header video {
+	  display: none;
+	}
+  }
