@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./docs/4.1/assets/img/favicons/favicon.ico">
+
+    <title>Gray Rain</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/cover/">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono|Work+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+      <div class="container">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <a class="navbar-brand" href="./GrayRain.html">
+            <img src="./logos/transparentslice.png" width="90" height="45" alt="">
+          </a>
+          <div class="container">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="#">Partners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="#">Support</a>
+          </li>
+          <li>
+            <a class="nav-link" style = "font-size: larger;" href="./virtualHospital.html">Virtual Hospital</a>
+          </li>
+          </div>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <img src="logos/blockm.png" style="max-height: 40px;">
+        </form>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+                <br><br>
+                
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1"><h3 class="mx-2 text-muted text-center">Virtual Patients</h3></label>
+                      <input type="email" class="form-control mx-1" id="exampleInputEmail1" placeholder="#">
+                      <small id="emailHelp" class="form-text text-muted mx-2">Enter the number of desired virtual patients.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1"><h3 class="mx-2 text-muted text-center">&nbsp;&nbsp;&nbsp;&nbsp;Features</h3></label>
+                      <input type="password" class="form-control mx-1" id="exampleInputPassword1" placeholder="#">
+                      <small id="emailHelp" class="form-text text-muted mx-2">How many features will the data have?</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary mx-2 my-2">Generate Data</button>
+                    <button type="submit" class="btn btn-outline-secondary mx-2">Reset</button>
+                </form>
+            </ul>
+            <br>
+            <h3 class="mx-2 font-italic text-muted text-center">OR</h3>
+            <h6 class="text-muted text-center mx-2"><b>Upload Real Data for Obfuscation</b></h6>
+            <div class="input-group bg-light">
+                <div class="custom-fil my-2 bg-light">
+                  <input type="file" class="custom-file-input text-muted" id="inputGroupFile01">
+                  <label class="custom-file-label bg-light" style="color:#cccccc;" for="inputGroupFile01">Choose file...</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mx-2 my-2">Obfuscate</button>
+            <button type="submit" class="btn btn-outline-secondary mx-2 my-2">Reset</button>
+            
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span>Saved Datasets</span>
+              <a class="d-flex align-items-center text-muted" href="#">
+                <span data-feather="plus-circle"></span>
+              </a>
+            </h6>
+            <ul class="nav flex-column mb-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  VH-2020-2-01
+                </a>
+                <a class="text-muted font-weight-light mb-40 small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1570 cells, 92 features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  VH-2019-12-22
+                </a>
+                <a class="text-muted font-weight-light mb-40 small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15362 cells, 12 features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  VH-2019-11-18
+                </a>
+                <a class="text-muted font-weight-light mb-40 small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2200 cells, 80 features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  VH-2019-10-31
+                </a>
+                <a class="text-muted font-weight-light mb-40 small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2424 cells, 81 features</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h2 style="color:#808080;"><b>Virtual Hospital: Simulated Data and Statistics</b></h2>
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-secondary">Share</button>
+                <button class="btn btn-sm btn-secondary">Export</button>
+              </div>
+              <button class="btn btn-sm btn-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                This week
+              </button>
+            </div>
+          </div>
+
+          <!-- --> <iframe id="example1" src="https://simeonem.shinyapps.io/grayrain/" 
+          	style="border: none; width: 100%; height: 850px" frameborder="0"></iframe>  <!-- -->
+          <!--  iframe id="VH_App" src="https://shiny.med.umich.edu/apps/dinov/GrayRain_VirtualHospital/" 
+          	style="border: none; width: 100%; height: 850px" frameborder="0"></iframe> -->
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+    
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+        <a href="mailto:Info@GrayRain.org">Info@GrayRain.org</a> | 
+        	Copyright &copy; 
+				<script type="text/javascript">
+						var d = new Date();
+						document.write(" " + d.getFullYear() + " | ");
+					</script> 
+			GrayRain&reg; Analytics |
+        	<a href="http://www.grayrain.org">http://www.GrayRain.org</a>
+	        <!-- http://www.gray-rain.com
+				http://www.gray-rain.org
+				http://www.grayrain.org
+				http://www.grayrain.net
+			 -->
+        </p>
+      </div>
+      <!-- /.container -->
+    </footer>
+  </body>
+</html>
