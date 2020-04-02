@@ -2,7 +2,7 @@
 
 **GrayRain Health Analytics Innovation**
 
-<a href="http://GrayRain.org"><img align="middle" src="https://raw.githubusercontent.com/SOCR/GrayRain/master/html/GrayRain_VH_Snap.png"></a>
+<a href="http://GrayRain.org"><img align="right" width="400" src="https://raw.githubusercontent.com/SOCR/GrayRain/master/html/GrayRain_VH_Snap.png"></a>
 
 Table of contents
 =================
