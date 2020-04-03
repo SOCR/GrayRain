@@ -1,13 +1,13 @@
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
 body {
   background: white;
-	background-size: 400% 400%;
+  background-size: 400% 400%;
+  font-family: 'Josefin Sans', sans-serif;
 }
-html{ height: 100%; }
+html{ height: 100%;
+}
 h1 {
   font-size: 50px; 
-  font-family: 'Work Sans', sans-serif; 
-  font-variant: condensed; 
   font-weight: bold; 
   line-height: 37px; 
 }
@@ -15,17 +15,13 @@ h1 {
 ul{
 	list-style-type: none;
 }
-h2, h3, h4, h5, h6, a {
-	font-family: 'Work Sans', sans-serif;
-}
-th, tr{
-	font-family: 'Ubuntu Mono', monospace;
-}
 .bg-dark{
 	color: #808080;
 	background-color: #808080;
 }
-
+#savedSets{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #s1 {
 	background: linear-gradient(-45deg,#808080, rgb(98, 121, 128), #156380, #616981);
 	background-size: 400% 400%;
