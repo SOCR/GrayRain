@@ -56,6 +56,12 @@ ul{
 	}
 }
 
+.main{
+	height: 100vh;
+	justify-content: center;
+	text-align: center;
+	justify-items: center;
+}
 
 
 

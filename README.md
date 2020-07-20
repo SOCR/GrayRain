@@ -18,7 +18,7 @@ Table of contents
 Overview
 ========
 
-Gray Rain designs innovative tools, builds effective AI services, and promotes large-scale data-driven health analytics. Our tools are driven by the core principle that rapid, secure, and efficient data-sharing between organizations and within organizations increases productivity and facilitates knowledge generation and translation into clinical practice to improve human conditions. 
+GrayRain designs innovative tools, builds effective AI services, and promotes large-scale data-driven health analytics. Our tools are driven by the core principle that rapid, secure, and efficient data-sharing between organizations and within organizations increases productivity and facilitates knowledge generation and translation into clinical practice to improve human conditions. 
 
 GrayRain's unique technology allows secure, effective, and efficient sharing of sensitive data without compromising personal privacy while preserving the energy of the information contained in the data archive. 
 
