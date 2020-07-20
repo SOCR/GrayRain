@@ -17,7 +17,8 @@
         <!-- Custom styles for this template -->
         <link href="css/styles.css" rel="stylesheet">
     </head>
-    <body style="overflow:auto; height:100%" id="s1">
+    <body style="overflow-x: hidden; height:100%" id="s1">
+        <img style="position:fixed; bottom: 2; right: 0; border: 0; max-width:50px" src="./logos/scroll.gif">
         <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
             <div class="container">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -25,17 +26,17 @@
                   <img src="./logos/transparentslice.png" width="90" height="45" alt="">
                 </a>
                 <div class="container">
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                   <a class="nav-link" style="font-size: larger;" href="./about.html">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                   <a class="nav-link" style="font-size: larger;" href="./team.html">Team</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                   <a class="nav-link" style="font-size: larger;" href="./support.html">Support</a>
                 </li>
                 <li>
-                  <a class="nav-link" style = "font-size: larger;" href="./virtualHospital.html">VirtualHospital</a>
+                  <a class="nav-link mx-3" style = "font-size: larger;" href="./virtualHospital.html">VirtualHospital</a>
                 </li>
                 </div>
               </ul>
@@ -44,18 +45,19 @@
               </form>
             </div>
           </nav>
-        <div id="s2">
+        <div id="s3">
+            <div id="back"> </div>
             <br><br><br>
-            <row class="main">
-                <h1 style="color: white">MEET THE TEAM</h1>
-            </row>
+            <div class="row justify-content-center">
+                <h1 style="color: white">Meet the Team</h1>
+            </div>
             <br><br><br>
         </div>
-        <div class="container-fluid">
-            <div class="row py-5" style="justify-content: center;">
+        <div class="container-responsive">
+            <div class="row px-5 py-5">
                 <div class="col">
-                    <div class="card" style="width: 18rem; margin: 0 auto;">
-                        <img class="card-img-top" src="./logos/simeone.jpg" alt="Card image cap">
+                    <div class="card" style="width: 22rem; margin: 0 auto; border-width: 0px; border-radius: 20px;">
+                        <img class="card-img-top" src="./logos/simeone.jpg" style="border-radius: 20px" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">Simeone Marino, PhD</h3>
                             <h5>Chief Technology Officer</h5>
@@ -64,8 +66,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem; margin: 0 auto;">
-                        <img class="card-img-top" src="./logos/johnny.jpg" alt="Card image cap">
+                    <div class="card" style="width: 22rem; margin: 0 auto; border-width: 0px; border-radius: 20px;">
+                        <img class="card-img-top" src="./logos/johnny.jpg" style="border-radius: 20px" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">Johnny Liu</h3>
                             <h5>Chief Operating Officer</h5>
@@ -74,8 +76,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;  margin: 0 auto;">
-                        <img class="card-img-top" src="./logos/ronak.png" alt="Card image cap">
+                    <div class="card" style="width: 22rem;  margin: 0 auto; border-width: 0px; border-radius: 20px;">
+                        <img class="card-img-top" src="./logos/ronak.png" style="border-radius: 20px" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">Ronak Shetty</h3>
                             <h5>Chief Strategy Officer</h5>
@@ -83,20 +85,22 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row pb-5 pt-2 px-5" style="justify-content: center">
                 <div class="col">
-                    <div class="card" style="width: 18rem;  margin: 0 auto;">
-                        <img class="card-img-top" src="./logos/ben.png" alt="Card image cap">
+                    <div class="card" style="width: 22rem;  margin: 0 auto; border-width: 0px; border-radius: 20px;">
+                        <img class="card-img-top" src="./logos/ben.png" style="border-radius: 20px" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="card-title">Benjamin Danzig</h3>
-                            <h5>Developer</h5>
-                            <p class="card-text">Ben is a computer science major at the University of Michigan. 
-                            He is an expert in front-end development, software-design, and extreme programming.</p>
+                            <h3 class="card-title">Ben Danzig</h3>
+                            <h5>Made the website</h5>
+                            <p class="card-text">Ben is a junior at the University of Michigan studying Computer Science and Entrepreneurship. 
+                            He is an expert in front-end development, software design, and object-oriented programming.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem; margin: 0 auto;">
-                        <img class="card-img-top" src="http://www.socr.umich.edu/people/dinov/ID_Cartoon_Animation.gif" alt="Card image cap">
+                    <div class="card" style="width: 22rem; margin: 0 auto; border-width: 0px; border-radius: 20px;">
+                        <img class="card-img-top" src="http://www.socr.umich.edu/people/dinov/ID_Cartoon_Animation.gif" style="border-radius: 20px;" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">Ivo Dinov, PhD</h3>
                             <h5>Executive Advisor</h5>
@@ -111,11 +115,12 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
                 <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <row class="align-middle">
+            <div class="row align-middle justify-content-center">
                 <a href="mailto:Info@GrayRain.org">Info@GrayRain.org</a> | 
                     Copyright &copy; 
                         <script type="text/javascript">
@@ -129,7 +134,7 @@
                         http://www.grayrain.org
                         http://www.grayrain.net
                     -->
-            </row>
+            </div>
         </div>
         <!-- /.container -->
       </footer>
